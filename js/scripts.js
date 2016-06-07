@@ -11,8 +11,11 @@ $(document).ready(function(){
         alert(inputLetters);
       }
     }
-
+    $("#outputField").text(inputLetters.join(""));
+    $("#puzzleForm").hide();
+    event.preventDefault();
   });
+
 });
 
 //
